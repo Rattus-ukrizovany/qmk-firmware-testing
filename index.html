@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Keyboard Firmware Tester</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔧 Virtual Keyboard Firmware Tester</h1>
+            <p>Upload your QMK or ZMK firmware and test your keyboard layout interactively</p>
+        </header>
+
+        <div class="upload-section">
+            <div class="upload-area" id="uploadArea">
+                <div class="upload-content">
+                    <div class="upload-icon">📁</div>
+                    <h3>Upload Firmware File</h3>
+                    <p>Drag & drop your firmware file here or click to browse</p>
+                    <p class="file-types">Supported: .json, .hex, .uf2, .keymap</p>
+                </div>
+                <input type="file" id="fileInput" accept=".json,.hex,.uf2,.keymap,.c,.h" multiple>
+            </div>
+            
+            <div class="firmware-info" id="firmwareInfo" style="display: none;">
+                <h3>📋 Firmware Information</h3>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <label>Firmware Type:</label>
+                        <span id="firmwareType">-</span>
+                    </div>
+                    <div class="info-item">
+                        <label>Keyboard Name:</label>
+                        <span id="keyboardName">-</span>
+                    </div>
+                    <div class="info-item">
+                        <label>Layout:</label>
+                        <span id="layoutName">-</span>
+                    </div>
+                    <div class="info-item">
+                        <label>Keys:</label>
+                        <span id="keyCount">-</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="workspace" id="workspace" style="display: none;">
+            <div class="controls-panel">
+                <h3>🎮 Test Controls</h3>
+                <div class="control-group">
+                    <button id="resetTest" class="btn btn-secondary">Reset Test</button>
+                    <button id="toggleLabels" class="btn btn-secondary">Toggle Labels</button>
+                    <button id="exportResults" class="btn btn-primary">Export Results</button>
+                </div>
+                <div class="stats">
+                    <div class="stat">
+                        <label>Keys Tested:</label>
+                        <span id="keysTestered">0</span>
+                    </div>
+                    <div class="stat">
+                        <label>Total Keys:</label>
+                        <span id="totalKeys">0</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="keyboard-container">
+                <h3>⌨️ Virtual Keyboard</h3>
+                <div class="keyboard-wrapper">
+                    <canvas id="keyboardCanvas" width="800" height="400"></canvas>
+                </div>
+                <div class="keyboard-info">
+                    <p>Click on keys to test them. Green = tested, Red = currently pressed, Gray = untested</p>
+                </div>
+            </div>
+
+            <div class="additional-components" id="additionalComponents">
+                <div class="component-section" id="encoderSection" style="display: none;">
+                    <h3>🔄 Encoders</h3>
+                    <div class="encoders-container" id="encodersContainer"></div>
+                </div>
+                
+                <div class="component-section" id="trackballSection" style="display: none;">
+                    <h3>🖲️ Trackball</h3>
+                    <div class="trackball-container" id="trackballContainer"></div>
+                </div>
+                
+                <div class="component-section" id="displaySection" style="display: none;">
+                    <h3>📺 Display</h3>
+                    <div class="display-container" id="displayContainer"></div>
+                </div>
+            </div>
+
+            <div class="test-log">
+                <h3>📝 Test Log</h3>
+                <div class="log-container" id="logContainer">
+                    <p class="log-entry">Ready to test firmware...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="firmware-parser.js"></script>
+    <script src="keyboard-renderer.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

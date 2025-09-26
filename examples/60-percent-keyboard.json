@@ -1,0 +1,96 @@
+{
+  "keyboard": "Generic 60% Keyboard",
+  "type": "QMK",
+  "version": "1.0.0",
+  "author": "Virtual Tester",
+  "description": "Standard 60% keyboard layout for testing",
+  "layout": {
+    "name": "60%",
+    "rows": 5,
+    "cols": 14
+  },
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
+  "keys": [
+    {"id": 0, "row": 0, "col": 0, "x": 10, "y": 10, "width": 45, "height": 45, "keycode": "KC_ESC"},
+    {"id": 1, "row": 0, "col": 1, "x": 65, "y": 10, "width": 45, "height": 45, "keycode": "KC_1"},
+    {"id": 2, "row": 0, "col": 2, "x": 120, "y": 10, "width": 45, "height": 45, "keycode": "KC_2"},
+    {"id": 3, "row": 0, "col": 3, "x": 175, "y": 10, "width": 45, "height": 45, "keycode": "KC_3"},
+    {"id": 4, "row": 0, "col": 4, "x": 230, "y": 10, "width": 45, "height": 45, "keycode": "KC_4"},
+    {"id": 5, "row": 0, "col": 5, "x": 285, "y": 10, "width": 45, "height": 45, "keycode": "KC_5"},
+    {"id": 6, "row": 0, "col": 6, "x": 340, "y": 10, "width": 45, "height": 45, "keycode": "KC_6"},
+    {"id": 7, "row": 0, "col": 7, "x": 395, "y": 10, "width": 45, "height": 45, "keycode": "KC_7"},
+    {"id": 8, "row": 0, "col": 8, "x": 450, "y": 10, "width": 45, "height": 45, "keycode": "KC_8"},
+    {"id": 9, "row": 0, "col": 9, "x": 505, "y": 10, "width": 45, "height": 45, "keycode": "KC_9"},
+    {"id": 10, "row": 0, "col": 10, "x": 560, "y": 10, "width": 45, "height": 45, "keycode": "KC_0"},
+    {"id": 11, "row": 0, "col": 11, "x": 615, "y": 10, "width": 45, "height": 45, "keycode": "KC_MINS"},
+    {"id": 12, "row": 0, "col": 12, "x": 670, "y": 10, "width": 45, "height": 45, "keycode": "KC_EQL"},
+    {"id": 13, "row": 0, "col": 13, "x": 725, "y": 10, "width": 100, "height": 45, "keycode": "KC_BSPC"},
+    
+    {"id": 14, "row": 1, "col": 0, "x": 10, "y": 65, "width": 67, "height": 45, "keycode": "KC_TAB"},
+    {"id": 15, "row": 1, "col": 1, "x": 87, "y": 65, "width": 45, "height": 45, "keycode": "KC_Q"},
+    {"id": 16, "row": 1, "col": 2, "x": 142, "y": 65, "width": 45, "height": 45, "keycode": "KC_W"},
+    {"id": 17, "row": 1, "col": 3, "x": 197, "y": 65, "width": 45, "height": 45, "keycode": "KC_E"},
+    {"id": 18, "row": 1, "col": 4, "x": 252, "y": 65, "width": 45, "height": 45, "keycode": "KC_R"},
+    {"id": 19, "row": 1, "col": 5, "x": 307, "y": 65, "width": 45, "height": 45, "keycode": "KC_T"},
+    {"id": 20, "row": 1, "col": 6, "x": 362, "y": 65, "width": 45, "height": 45, "keycode": "KC_Y"},
+    {"id": 21, "row": 1, "col": 7, "x": 417, "y": 65, "width": 45, "height": 45, "keycode": "KC_U"},
+    {"id": 22, "row": 1, "col": 8, "x": 472, "y": 65, "width": 45, "height": 45, "keycode": "KC_I"},
+    {"id": 23, "row": 1, "col": 9, "x": 527, "y": 65, "width": 45, "height": 45, "keycode": "KC_O"},
+    {"id": 24, "row": 1, "col": 10, "x": 582, "y": 65, "width": 45, "height": 45, "keycode": "KC_P"},
+    {"id": 25, "row": 1, "col": 11, "x": 637, "y": 65, "width": 45, "height": 45, "keycode": "KC_LBRC"},
+    {"id": 26, "row": 1, "col": 12, "x": 692, "y": 65, "width": 45, "height": 45, "keycode": "KC_RBRC"},
+    {"id": 27, "row": 1, "col": 13, "x": 747, "y": 65, "width": 78, "height": 45, "keycode": "KC_BSLS"},
+    
+    {"id": 28, "row": 2, "col": 0, "x": 10, "y": 120, "width": 78, "height": 45, "keycode": "KC_CAPS"},
+    {"id": 29, "row": 2, "col": 1, "x": 98, "y": 120, "width": 45, "height": 45, "keycode": "KC_A"},
+    {"id": 30, "row": 2, "col": 2, "x": 153, "y": 120, "width": 45, "height": 45, "keycode": "KC_S"},
+    {"id": 31, "row": 2, "col": 3, "x": 208, "y": 120, "width": 45, "height": 45, "keycode": "KC_D"},
+    {"id": 32, "row": 2, "col": 4, "x": 263, "y": 120, "width": 45, "height": 45, "keycode": "KC_F"},
+    {"id": 33, "row": 2, "col": 5, "x": 318, "y": 120, "width": 45, "height": 45, "keycode": "KC_G"},
+    {"id": 34, "row": 2, "col": 6, "x": 373, "y": 120, "width": 45, "height": 45, "keycode": "KC_H"},
+    {"id": 35, "row": 2, "col": 7, "x": 428, "y": 120, "width": 45, "height": 45, "keycode": "KC_J"},
+    {"id": 36, "row": 2, "col": 8, "x": 483, "y": 120, "width": 45, "height": 45, "keycode": "KC_K"},
+    {"id": 37, "row": 2, "col": 9, "x": 538, "y": 120, "width": 45, "height": 45, "keycode": "KC_L"},
+    {"id": 38, "row": 2, "col": 10, "x": 593, "y": 120, "width": 45, "height": 45, "keycode": "KC_SCLN"},
+    {"id": 39, "row": 2, "col": 11, "x": 648, "y": 120, "width": 45, "height": 45, "keycode": "KC_QUOT"},
+    {"id": 40, "row": 2, "col": 12, "x": 703, "y": 120, "width": 122, "height": 45, "keycode": "KC_ENT"},
+    
+    {"id": 41, "row": 3, "col": 0, "x": 10, "y": 175, "width": 122, "height": 45, "keycode": "KC_LSFT"},
+    {"id": 42, "row": 3, "col": 1, "x": 142, "y": 175, "width": 45, "height": 45, "keycode": "KC_Z"},
+    {"id": 43, "row": 3, "col": 2, "x": 197, "y": 175, "width": 45, "height": 45, "keycode": "KC_X"},
+    {"id": 44, "row": 3, "col": 3, "x": 252, "y": 175, "width": 45, "height": 45, "keycode": "KC_C"},
+    {"id": 45, "row": 3, "col": 4, "x": 307, "y": 175, "width": 45, "height": 45, "keycode": "KC_V"},
+    {"id": 46, "row": 3, "col": 5, "x": 362, "y": 175, "width": 45, "height": 45, "keycode": "KC_B"},
+    {"id": 47, "row": 3, "col": 6, "x": 417, "y": 175, "width": 45, "height": 45, "keycode": "KC_N"},
+    {"id": 48, "row": 3, "col": 7, "x": 472, "y": 175, "width": 45, "height": 45, "keycode": "KC_M"},
+    {"id": 49, "row": 3, "col": 8, "x": 527, "y": 175, "width": 45, "height": 45, "keycode": "KC_COMM"},
+    {"id": 50, "row": 3, "col": 9, "x": 582, "y": 175, "width": 45, "height": 45, "keycode": "KC_DOT"},
+    {"id": 51, "row": 3, "col": 10, "x": 637, "y": 175, "width": 45, "height": 45, "keycode": "KC_SLSH"},
+    {"id": 52, "row": 3, "col": 11, "x": 692, "y": 175, "width": 133, "height": 45, "keycode": "KC_RSFT"},
+    
+    {"id": 53, "row": 4, "col": 0, "x": 10, "y": 230, "width": 61, "height": 45, "keycode": "KC_LCTL"},
+    {"id": 54, "row": 4, "col": 1, "x": 81, "y": 230, "width": 50, "height": 45, "keycode": "KC_LGUI"},
+    {"id": 55, "row": 4, "col": 2, "x": 141, "y": 230, "width": 61, "height": 45, "keycode": "KC_LALT"},
+    {"id": 56, "row": 4, "col": 3, "x": 212, "y": 230, "width": 311, "height": 45, "keycode": "KC_SPC"},
+    {"id": 57, "row": 4, "col": 4, "x": 533, "y": 230, "width": 61, "height": 45, "keycode": "KC_RALT"},
+    {"id": 58, "row": 4, "col": 5, "x": 604, "y": 230, "width": 50, "height": 45, "keycode": "KC_RGUI"},
+    {"id": 59, "row": 4, "col": 6, "x": 664, "y": 230, "width": 61, "height": 45, "keycode": "KC_APP"},
+    {"id": 60, "row": 4, "col": 7, "x": 735, "y": 230, "width": 90, "height": 45, "keycode": "KC_RCTL"}
+  ],
+  "encoders": [
+    {
+      "name": "Volume Encoder",
+      "pins": ["B5", "B6"],
+      "steps": 20
+    }
+  ],
+  "layers": [
+    {
+      "name": "base",
+      "keys": ["KC_ESC", "KC_1", "KC_2", "KC_3", "KC_4", "KC_5", "KC_6", "KC_7", "KC_8", "KC_9", "KC_0", "KC_MINS", "KC_EQL", "KC_BSPC", "KC_TAB", "KC_Q", "KC_W", "KC_E", "KC_R", "KC_T", "KC_Y", "KC_U", "KC_I", "KC_O", "KC_P", "KC_LBRC", "KC_RBRC", "KC_BSLS", "KC_CAPS", "KC_A", "KC_S", "KC_D", "KC_F", "KC_G", "KC_H", "KC_J", "KC_K", "KC_L", "KC_SCLN", "KC_QUOT", "KC_ENT", "KC_LSFT", "KC_Z", "KC_X", "KC_C", "KC_V", "KC_B", "KC_N", "KC_M", "KC_COMM", "KC_DOT", "KC_SLSH", "KC_RSFT", "KC_LCTL", "KC_LGUI", "KC_LALT", "KC_SPC", "KC_RALT", "KC_RGUI", "KC_APP", "KC_RCTL"]
+    }
+  ]
+}
