@@ -87,6 +87,7 @@ The `examples/` directory contains sample firmware files for testing:
 - `60-percent-keyboard.json` - Standard 60% keyboard layout
 - `split-keyboard-zmk.keymap` - ZMK split keyboard configuration  
 - `advanced-keyboard.json` - Full-featured keyboard with encoders, trackball, and displays
+- `rattusboard-split.json` - RattusBoard split ergonomic keyboard with trackball and encoder
 
 ## 🎛️ Controls
 
@@ -104,9 +105,10 @@ The `examples/` directory contains sample firmware files for testing:
 - **Generic**: Basic JSON format for custom keyboards
 
 ### Key Features
-- **Smart Layout Detection**: Automatically detects keyboard layout from firmware
+- **Smart Layout Detection**: Automatically detects keyboard layout from firmware, including split keyboards
 - **Multi-layer Support**: Handle multiple keyboard layers and functions
 - **Component Detection**: Automatically identifies encoders, trackballs, displays
+- **Split Keyboard Support**: Proper recognition and rendering of split ergonomic keyboards
 - **Browser Compatibility**: Works in all modern web browsers
 - **No Installation Required**: Pure web-based solution
 
